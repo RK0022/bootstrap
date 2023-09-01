@@ -1,0 +1,19 @@
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    border: solid 1px;
+}
+
+.boxs>div {
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    border-radius: solid 1px;
+    -webkit-border-radius: solid 1px;
+    -moz-border-radius: solid 1px;
+    -ms-border-radius: solid 1px;
+    -o-border-radius: solid 1px;
+}

@@ -1,0 +1,35 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    display: none;
+}
+
+div.accordion {
+    width: 50%;
+    border-radius: solid 1px;
+    -webkit-border-radius: solid 1px;
+    -moz-border-radius: solid 1px;
+    -ms-border-radius: solid 1px;
+    -o-border-radius: solid 1px;
+    margin: 5px;
+}
+
+.accordion>div>a {
+    text-decoration: none;
+    display: block;
+    border: solid 1px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0;
+    margin: 4px;
+    color: black;
+}
+
+.accordion>a:active>div.item {
+    display: block;
+}

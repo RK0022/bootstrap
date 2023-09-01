@@ -1,0 +1,18 @@
+.leftmenu {
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.navbar {
+    height: 100px;
+    background-image: linear-gradient(40deg, white, black);
+}
+
+footer {
+    background-color: rgb(215, 215, 215);
+}
+
+.search {
+    width: 200px;
+}
